@@ -13,17 +13,33 @@ p.standout {
 	font-style: italic;
 }
 
+p.more-readable {
+		line-height: 2em;
+}
+
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size:2em;
+}
+
+h2 {
+	letter-spacing: .1em;
 }
 
 h3.bigger {
 	font-size: 2.5em;
 }
 
+h4{
+	letter-spacing: -.05em;
+}
+
 h4.special {
 	font-style: italic;
+}
+
+h5 {
+	word-spacing: 1em;
 }
 
 .typewriter {
@@ -32,4 +48,8 @@ h4.special {
 
 .emphasized {
 	font-style: italic;
+}
+
+.standout {
+	color: #cc0000;
 }
