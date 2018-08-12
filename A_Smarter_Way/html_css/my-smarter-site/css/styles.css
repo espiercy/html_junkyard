@@ -26,6 +26,22 @@ p.indented {
 	text-indent: 1em;
 }
 
+p.offset {
+	margin: 2em;
+}
+
+p.clockwiseorder {
+	margin: 0 2em 0 1.75em;
+}
+
+p.bottom {
+	margin-bottom: 1em;
+}
+
+p.allmargins {
+	margin: 1em 2em 3em 4em;
+}
+
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size:2em;
