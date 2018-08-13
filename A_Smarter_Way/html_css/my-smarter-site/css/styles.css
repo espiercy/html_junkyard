@@ -42,6 +42,10 @@ p.allmargins {
 	margin: 1em 2em 3em 4em;
 }
 
+p.boxed {
+	border: 5px solid red;
+}
+
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size:2em;
@@ -87,4 +91,8 @@ blockquote {
 
 .date-style {
 	text-align: right;
+}
+
+.enclosed {
+	border: 1px dotted #0000ff;
 }
