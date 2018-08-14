@@ -15,7 +15,7 @@ p.standout {
 }
 
 p.more-readable {
-		line-height: 2em;
+	line-height: 2em;
 }
 
 p.pretty {
@@ -44,6 +44,7 @@ p.allmargins {
 
 p.boxed {
 	border: 5px solid red;
+	padding: 1em 2em 0 .3em;
 }
 
 h1 {
