@@ -1,7 +1,18 @@
+div#main {
+	font-size: 1.1em;
+	margin: .1em .2em .2em .2em;
+}
+
 p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.2em;
 	color: darkslategray;
+}
+
+p#mission-statement {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	color: darkblue;
 }
 
 h2 {
@@ -21,4 +32,9 @@ h1, h5 {
 
 h3 {
 	color: #999999;
+}
+
+#special {
+	font-size: 1.5em;
+	font-style: italic;
 }
