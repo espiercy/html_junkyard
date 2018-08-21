@@ -3,6 +3,10 @@ div#main {
 	margin: .1em .2em .2em .2em;
 }
 
+div.line img{
+	display: block;
+}
+
 p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.2em;
