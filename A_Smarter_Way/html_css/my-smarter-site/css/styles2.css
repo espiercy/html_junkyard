@@ -66,3 +66,21 @@ img.wrap-around-the-right-side {
 img.r-float {
 	float: right;
 }
+
+a {
+  color: #b8860b;
+}
+
+a:hover {
+	color: maroon;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active {
+	font-size: 1.25em;
+}
+
+a:visited {
+	color: deeppink;
+}

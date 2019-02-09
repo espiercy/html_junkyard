@@ -4,13 +4,26 @@
 		<link rel="stylesheet" type="text/css" href="css/styles2.css">
 	</head>
 	<body>
+	<h1 id="top-header"><a href="#bottom-div">This is the top of the page</a></h1>
+	<h2><a href="practice.html#landing">Lands you in the middle of the other page.</a></h2>
+	<h3><a href="http://www.cosmicquestions.com/faq.html#why-me"</a>404</h3>
+	<h4><a href="http://www.wikipedia.org" target="_blank">Link to wiki in a new page</a>
 		<div>
+			<a href="https://google.com">needs to have text in it...</a>
 			<a href="http://asmarterwaytolearn.com/why-exercises.html">Why exercises?</a>
+			<a href="practice.html">A link to the first practice</a>
 			<h3>Our founder</h3>
 			<img src="images/prez.png" alt="Our founder" width="55" height="85">
 			<img src="http://www.asmarterwaytolearn.com/surprise.jpg">
 			<img src="http://www.asmarterwaytolearn.com/pics/loris.jpg">
 			<p>Our founder is no longer with us, alas.</p>
+			<p id="openWindow">Tell me a little more about this.</p>
+			<script>
+				document.getElementById("openWindow").onclick = openWindow;
+				function openWindow(){
+					var w = window.open("practice.html", "", "width=200, height=300, left=300, top=400");
+				}
+			</script>
 		</div>
 		<div id="main">
 			<h2>Here's the whole story.</h2>
@@ -36,5 +49,7 @@
 			<p class="no-wrap">Wherever you go, you'll find a Brad's Bread sticks nearby, with breadsticks in 43 delicious flavors.</p>
 		</div>
 		<a href="http://www.stackoverflow.com">Stack Overflow</a>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div id="bottom-div"><a href="#top-header">Some text down here</a></div>
 	</body>
 </html>
